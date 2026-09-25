@@ -1,12 +1,11 @@
-name: Deep field contributions
+name: Generate contribution snake
 
-# Renders the contribution calendar as a pure-black starfield (one star per day,
-# brighter = more contributions) and publishes it to the `output` branch.
-# Replaces the generic contribution snake.
+# The classic snake, reskinned: a golden star-serpent devouring the contribution
+# grid on pure black. snk generates, scripts/space_snake.py recolors.
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "30 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,15 +17,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Render deep-field SVG
-        run: python scripts/contrib_stars.py dist/contrib-stars.svg
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONTRIB_USER: ${{ github.repository_owner }}
+      - name: Recolor to deep-space palette
+        run: python scripts/space_snake.py "dist/*.svg"
 
       - name: Push to output branch
         run: |
@@ -41,9 +45,7 @@ jobs:
             git checkout --orphan output
             git rm -rf . >/dev/null 2>&1 || true
           fi
-          cp dist/contrib-stars.svg ./contrib-stars.svg
-          git rm -q github-snake.svg github-snake-dark.svg 2>/dev/null || true
-          rm -f github-snake.svg github-snake-dark.svg
-          git add contrib-stars.svg
-          git diff --cached --quiet || git commit -m "update deep-field contribution stars"
+          cp dist/github-snake.svg dist/github-snake-dark.svg ./
+          git add github-snake.svg github-snake-dark.svg
+          git diff --cached --quiet || git commit -m "update star-serpent"
           git push origin output

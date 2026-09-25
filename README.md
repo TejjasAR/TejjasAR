@@ -36,6 +36,12 @@ This profile is tuned to deep space. **Open an issue titled `cmd: ping`** and yo
   <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/contrib-stars.svg" alt="contributions as a starfield" />
 </div>
 
+## 🐍 Star serpent
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="a golden star-serpent devouring the contribution grid" />
+</div>
+
 ---
 
 <div align="center">
