@@ -1,20 +1,14 @@
 [
   {
     "user": "tejjasar",
-    "cmd": "spellbook",
-    "out": "spellbook: fireball \u00b7 heal \u00b7 lightning \u00b7 prophecy \u00b7 inspect \u00b7 steal",
-    "ts": "2026-09-25T06:05:00+00:00"
+    "cmd": "starlog",
+    "out": "signals: ping \u00b7 launch \u00b7 scan \u00b7 warp \u00b7 orbit \u00b7 distress \u00b7 signal",
+    "ts": "2026-09-25T06:40:00+00:00"
   },
   {
     "user": "tejjasar",
-    "cmd": "prophecy",
-    "out": "The oracle speaks: \"Talk is cheap. Show me the code.\" \u2014 Linus Torvalds",
-    "ts": "2026-09-25T06:05:01+00:00"
-  },
-  {
-    "user": "TejjasAR",
-    "cmd": "fireball",
-    "out": "Fireball engulfs the training dummy!\n-155 HP! The dummy collapses. DUMMY DEFEATED.",
-    "ts": "2026-09-25T06:33:13+00:00"
+    "cmd": "signal",
+    "out": "Incoming transmission from Earth: \"Talk is cheap. Show me the code.\" \u2014 Linus Torvalds",
+    "ts": "2026-09-25T06:40:01+00:00"
   }
 ]

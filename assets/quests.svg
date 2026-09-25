@@ -1,18 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 512" font-family="Trebuchet MS, Verdana, sans-serif">
-<rect x="1" y="1" width="798" height="510" rx="18" fill="#1c1846"/>
+<rect x="1" y="1" width="798" height="510" rx="18" fill="#030308"/>
 <defs><linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs>
-<text x="40" y="56" font-size="28" font-weight="bold" fill="url(#goldGrad)" letter-spacing="4">QUEST LOG</text>
-<text x="760" y="52" font-size="14" fill="#a5b4fc" text-anchor="end">7 active quests</text>
-<line x1="40" y1="72" x2="760" y2="72" stroke="#fbbf24" stroke-opacity="0.25"/>
+<circle cx="592" cy="93" r="1.7" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.5s" begin="-1.2s" repeatCount="indefinite"/></circle>
+<circle cx="675" cy="458" r="2.0" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.7s" begin="-0.9s" repeatCount="indefinite"/></circle>
+<circle cx="675" cy="471" r="1.7" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.5s" begin="-3.4s" repeatCount="indefinite"/></circle>
+<circle cx="548" cy="254" r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.8s" begin="-3.1s" repeatCount="indefinite"/></circle>
+<circle cx="316" cy="219" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.5s" begin="-0.2s" repeatCount="indefinite"/></circle>
+<circle cx="630" cy="448" r="1.8" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.3s" begin="-2.8s" repeatCount="indefinite"/></circle>
+<circle cx="335" cy="292" r="1.9" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="2.7s" begin="-2.3s" repeatCount="indefinite"/></circle>
+<circle cx="334" cy="462" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="2.6s" begin="-2.3s" repeatCount="indefinite"/></circle>
+<circle cx="775" cy="195" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.0s" begin="-0.7s" repeatCount="indefinite"/></circle>
+<circle cx="287" cy="171" r="0.8" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.6s" begin="-1.1s" repeatCount="indefinite"/></circle>
+<circle cx="411" cy="207" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="2.3s" begin="-0.1s" repeatCount="indefinite"/></circle>
+<circle cx="650" cy="390" r="1.8" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.6s" begin="-0.3s" repeatCount="indefinite"/></circle>
+<circle cx="103" cy="69" r="1.9" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="2.0s" begin="-0.8s" repeatCount="indefinite"/></circle>
+<circle cx="364" cy="111" r="2.0" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.0s" begin="-1.6s" repeatCount="indefinite"/></circle>
+<circle cx="620" cy="250" r="1.9" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.8s" begin="-1.7s" repeatCount="indefinite"/></circle>
+<circle cx="323" cy="256" r="0.9" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="3.4s" begin="-1.3s" repeatCount="indefinite"/></circle>
+<circle cx="378" cy="64" r="1.7" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="2.7s" begin="-2.5s" repeatCount="indefinite"/></circle>
+<circle cx="657" cy="235" r="1.8" fill="#ffffff"><animate attributeName="opacity" values="0.06;0.8;0.06" keyTimes="0;0.5;1" dur="4.6s" begin="-3.9s" repeatCount="indefinite"/></circle>
+<text x="40" y="56" font-size="28" font-weight="bold" fill="url(#goldGrad)" letter-spacing="5">MISSION LOG</text>
+<text x="760" y="52" font-size="14" fill="#8b93b8" text-anchor="end">7 active missions</text>
+<line x1="40" y1="72" x2="760" y2="72" stroke="#fbbf24" stroke-opacity="0.3"/>
 <g opacity="0">
 <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.35s" begin="0.15s" fill="freeze"/>
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.15s" fill="freeze"/>
 <circle cx="62" cy="104" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="102" font-size="17" font-weight="bold" fill="#f5f3ff">python-packet-sniffer</text>
-<text x="84" y="126" font-size="13" fill="#a5b4fc">Intercept whispers on the wire</text>
+<text x="84" y="126" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">Intercept whispers on the wire</text>
 <text x="600" y="110" font-size="14" fill="#fbbf24" letter-spacing="2">★★★</text>
-<rect x="688" y="88" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="105" font-size="11" fill="#fbbf24" text-anchor="middle">Python</text>
+<rect x="688" y="88" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="105" font-size="11" fill="#22d3ee" text-anchor="middle">Python</text>
 </g>
 <line x1="40" y1="138" x2="760" y2="138" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -20,10 +38,10 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.27s" fill="freeze"/>
 <circle cx="62" cy="160" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="158" font-size="17" font-weight="bold" fill="#f5f3ff">Sentiment_analysis</text>
-<text x="84" y="182" font-size="13" fill="#a5b4fc">Teach machines to read moods</text>
+<text x="84" y="182" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">Teach machines to read moods</text>
 <text x="600" y="166" font-size="14" fill="#fbbf24" letter-spacing="2">★★☆</text>
-<rect x="688" y="144" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="161" font-size="11" fill="#fbbf24" text-anchor="middle">Jupyter</text>
+<rect x="688" y="144" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="161" font-size="11" fill="#22d3ee" text-anchor="middle">Jupyter</text>
 </g>
 <line x1="40" y1="194" x2="760" y2="194" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -31,10 +49,10 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.39s" fill="freeze"/>
 <circle cx="62" cy="216" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="214" font-size="17" font-weight="bold" fill="#f5f3ff">dfs-project</text>
-<text x="84" y="238" font-size="13" fill="#a5b4fc">Delve into the deep file system</text>
+<text x="84" y="238" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">Delve into the deep file system</text>
 <text x="600" y="222" font-size="14" fill="#fbbf24" letter-spacing="2">★★☆</text>
-<rect x="688" y="200" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="217" font-size="11" fill="#fbbf24" text-anchor="middle">Java</text>
+<rect x="688" y="200" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="217" font-size="11" fill="#22d3ee" text-anchor="middle">Java</text>
 </g>
 <line x1="40" y1="250" x2="760" y2="250" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -42,10 +60,10 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.51s" fill="freeze"/>
 <circle cx="62" cy="272" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="270" font-size="17" font-weight="bold" fill="#f5f3ff">ml</text>
-<text x="84" y="294" font-size="13" fill="#a5b4fc">Tame wild data, train beasts</text>
+<text x="84" y="294" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">Tame wild data, train beasts</text>
 <text x="600" y="278" font-size="14" fill="#fbbf24" letter-spacing="2">★★☆</text>
-<rect x="688" y="256" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="273" font-size="11" fill="#fbbf24" text-anchor="middle">Python</text>
+<rect x="688" y="256" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="273" font-size="11" fill="#22d3ee" text-anchor="middle">Python</text>
 </g>
 <line x1="40" y1="306" x2="760" y2="306" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -53,10 +71,10 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.63s" fill="freeze"/>
 <circle cx="62" cy="328" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="326" font-size="17" font-weight="bold" fill="#f5f3ff">Affine_surge_project</text>
-<text x="84" y="350" font-size="13" fill="#a5b4fc">An experimental expedition</text>
+<text x="84" y="350" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">An experimental expedition</text>
 <text x="600" y="334" font-size="14" fill="#fbbf24" letter-spacing="2">★★☆</text>
-<rect x="688" y="312" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="329" font-size="11" fill="#fbbf24" text-anchor="middle">Python</text>
+<rect x="688" y="312" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="329" font-size="11" fill="#22d3ee" text-anchor="middle">Python</text>
 </g>
 <line x1="40" y1="362" x2="760" y2="362" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -64,10 +82,10 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.75s" fill="freeze"/>
 <circle cx="62" cy="384" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="382" font-size="17" font-weight="bold" fill="#f5f3ff">alignx</text>
-<text x="84" y="406" font-size="13" fill="#a5b4fc">A mysterious alignment ritual</text>
+<text x="84" y="406" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">A mysterious alignment ritual</text>
 <text x="600" y="390" font-size="14" fill="#fbbf24" letter-spacing="2">★★☆</text>
-<rect x="688" y="368" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="385" font-size="11" fill="#fbbf24" text-anchor="middle">JavaScript</text>
+<rect x="688" y="368" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="385" font-size="11" fill="#22d3ee" text-anchor="middle">JavaScript</text>
 </g>
 <line x1="40" y1="418" x2="760" y2="418" stroke="#ffffff" stroke-opacity="0.07"/>
 <g opacity="0">
@@ -75,10 +93,14 @@
 <animateTransform attributeName="transform" type="translate" from="-18 0" to="0 0" dur="0.35s" begin="0.87s" fill="freeze"/>
 <circle cx="62" cy="440" r="7" fill="#4ade80"><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="84" y="438" font-size="17" font-weight="bold" fill="#f5f3ff">cpp-http-server</text>
-<text x="84" y="462" font-size="13" fill="#a5b4fc">Forge a web server from raw sockets</text>
+<text x="84" y="462" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8b93b8">Forge a web server from raw sockets</text>
 <text x="600" y="446" font-size="14" fill="#fbbf24" letter-spacing="2">★★★</text>
-<rect x="688" y="424" width="76" height="24" rx="12" fill="#000000" fill-opacity="0.4" stroke="#fbbf24" stroke-opacity="0.4"/>
-<text x="726" y="441" font-size="11" fill="#fbbf24" text-anchor="middle">C++</text>
+<rect x="688" y="424" width="76" height="24" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#22d3ee" stroke-opacity="0.5"/>
+<text x="726" y="441" font-size="11" fill="#22d3ee" text-anchor="middle">C++</text>
 </g>
-<rect x="1" y="1" width="798" height="510" rx="18" fill="none" stroke="#fbbf24" stroke-opacity="0.35" stroke-width="2"/>
+<defs><linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.10"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<rect x="40" y="90" width="720" height="70" fill="url(#sweep)">
+<animate attributeName="y" values="90;430" keyTimes="0;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="1" y="1" width="798" height="510" rx="18" fill="none" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="2"/>
 </svg>

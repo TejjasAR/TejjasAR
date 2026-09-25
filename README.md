@@ -1,47 +1,47 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/hero.svg" alt="Tejjas — LVL 23 Code Warrior" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/hero.svg" alt="Tejjas — LVL 23 Space Explorer" />
 </div>
 
-## ⚔️ Battle log — cast a spell on this profile
+## 📡 Comms log — transmit a signal
 
-This profile is enchanted. **Open an issue titled `cmd: fireball`** and your spell lands in the log below, live.
+This profile is tuned to deep space. **Open an issue titled `cmd: ping`** and your transmission appears below, live.
 
-`spellbook` · `fireball` · `heal` · `lightning` · `prophecy` · `inspect` · `steal`
+`starlog` · `ping` · `launch` · `scan` · `warp` · `orbit` · `distress` · `signal`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/battle-log.svg" alt="battle log" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/battle-log.svg" alt="comms log" />
 </div>
 
-## 📜 Quest log
+## 🚀 Mission log
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/quests.svg" alt="quest log" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/quests.svg" alt="mission log" />
 </div>
 
-## 🌟 Skill tree
+## 🌌 Star chart
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/skills.svg" alt="skill tree" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/skills.svg" alt="star chart" />
 </div>
 
-## 🛡️ Battle stats
+## 🛰️ Flight record
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stats.svg" alt="battle stats" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stats.svg" alt="flight record" />
 </div>
 
-## 🗺️ World map
+## 🌠 Flight path
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="contribution world map" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="contribution flight path" />
 </div>
 
 ---
 
 <div align="center">
 
-*every legend starts at zero* ⚔️
+*per aspera ad astra* ✨
 
-<img src="https://komarev.com/ghpvc/?username=TejjasAR&color=fbbf24&style=flat-square&label=tavern+visitors" alt="tavern visitors" />
+<img src="https://komarev.com/ghpvc/?username=TejjasAR&color=fbbf24&style=flat-square&label=deep-space+visitors" alt="deep space visitors" />
 
 </div>
