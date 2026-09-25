@@ -124,7 +124,7 @@ def load_log():
 
 def render_transcript(entries):
     blocks = []
-    for e in entries:
+    for e in reversed(entries):  # newest first — live feed order
         blocks.append(f"{e['user']}@tejjas-os:~$ {e['cmd']}\n{e['out']}")
     return "\n\n".join(blocks)
 

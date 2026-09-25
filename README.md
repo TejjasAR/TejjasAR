@@ -10,14 +10,14 @@ Try `help`, `whoami`, `fortune`, `hack`, `sudo`, `matrix`, `top`, `neofetch`.
 
 <!-- TERMINAL_LOG_START -->
 ```text
-tejjasar@tejjas-os:~$ help
-available commands: help · whoami · neofetch · fortune · hack · sudo · matrix · top
+TejjasAR@tejjas-os:~$ fortune
+"The best error message is the one that never shows up." — Thomas Fuchs
 
 tejjasar@tejjas-os:~$ fortune
 "Talk is cheap. Show me the code." — Linus Torvalds
 
-TejjasAR@tejjas-os:~$ fortune
-"The best error message is the one that never shows up." — Thomas Fuchs
+tejjasar@tejjas-os:~$ help
+available commands: help · whoami · neofetch · fortune · hack · sudo · matrix · top
 ```
 <!-- TERMINAL_LOG_END -->
 
