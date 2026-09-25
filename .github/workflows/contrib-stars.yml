@@ -1,0 +1,48 @@
+name: Deep field contributions
+
+# Renders the contribution calendar as a pure-black starfield (one star per day,
+# brighter = more contributions) and publishes it to the `output` branch.
+# Replaces the generic contribution snake.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render deep-field SVG
+        run: python scripts/contrib_stars.py dist/contrib-stars.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONTRIB_USER: ${{ github.repository_owner }}
+
+      - name: Push to output branch
+        run: |
+          set -e
+          git config user.name "deep-field-relay"
+          git config user.email "deep-field-relay@users.noreply.github.com"
+          git fetch origin output 2>/dev/null || true
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          cp dist/contrib-stars.svg ./contrib-stars.svg
+          git rm -q github-snake.svg github-snake-dark.svg 2>/dev/null || true
+          rm -f github-snake.svg github-snake-dark.svg
+          git add contrib-stars.svg
+          git diff --cached --quiet || git commit -m "update deep-field contribution stars"
+          git push origin output

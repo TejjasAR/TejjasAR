@@ -30,10 +30,10 @@ This profile is tuned to deep space. **Open an issue titled `cmd: ping`** and yo
   <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stats.svg" alt="flight record" />
 </div>
 
-## 🌠 Flight path
+## 🌌 Deep field
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="contribution flight path" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/contrib-stars.svg" alt="contributions as a starfield" />
 </div>
 
 ---
