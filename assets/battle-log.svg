@@ -4,9 +4,12 @@
 <text x="40" y="52" font-size="24" font-weight="bold" fill="url(#bgold)" letter-spacing="4">BATTLE LOG</text>
 <text x="760" y="48" font-size="13" fill="#a5b4fc" text-anchor="end">visitors cast spells · open an issue titled `cmd: fireball`</text>
 <line x1="40" y1="68" x2="760" y2="68" stroke="#fbbf24" stroke-opacity="0.25"/>
-<text x="40" y="102" font-size="14" font-weight="bold" fill="#fbbf24">> tejjasar cast PROPHECY!</text>
-<text x="58" y="124" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">The oracle speaks: &quot;Talk is cheap. Show me the code.&quot; — Linus Torvalds</text>
-<text x="40" y="155" font-size="14" font-weight="bold" fill="#fbbf24">> tejjasar cast SPELLBOOK!</text>
-<text x="58" y="177" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">spellbook: fireball · heal · lightning · prophecy · inspect · steal</text>
+<text x="40" y="102" font-size="14" font-weight="bold" fill="#fbbf24">> TejjasAR cast FIREBALL!</text>
+<text x="58" y="124" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">Fireball engulfs the training dummy!</text>
+<text x="58" y="143" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">-155 HP! The dummy collapses. DUMMY DEFEATED.</text>
+<text x="40" y="174" font-size="14" font-weight="bold" fill="#fbbf24">> tejjasar cast PROPHECY!</text>
+<text x="58" y="196" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">The oracle speaks: &quot;Talk is cheap. Show me the code.&quot; — Linus Torvalds</text>
+<text x="40" y="227" font-size="14" font-weight="bold" fill="#fbbf24">> tejjasar cast SPELLBOOK!</text>
+<text x="58" y="249" font-size="12.5" fill="#d1d5db" font-family="Menlo, Consolas, monospace">spellbook: fireball · heal · lightning · prophecy · inspect · steal</text>
 <rect x="1" y="1" width="798" height="338" rx="18" fill="none" stroke="#fbbf24" stroke-opacity="0.35" stroke-width="2"/>
 </svg>
