@@ -1,61 +1,47 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/hero.svg" alt="./tejjasar --init" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/hero.svg" alt="Tejjas — LVL 23 Code Warrior" />
 </div>
 
-## `$ ssh guest@tejjas-os` · remote terminal — yes, it's alive
+## ⚔️ Battle log — cast a spell on this profile
 
-This machine accepts commands from visitors. **Open an issue titled `cmd: <command>`** and the transcript below updates itself.
+This profile is enchanted. **Open an issue titled `cmd: fireball`** and your spell lands in the log below, live.
 
-Try `help`, `whoami`, `fortune`, `hack`, `sudo`, `matrix`, `top`, `neofetch`.
-
-<!-- TERMINAL_LOG_START -->
-```text
-TejjasAR@tejjas-os:~$ fortune
-"The best error message is the one that never shows up." — Thomas Fuchs
-
-tejjasar@tejjas-os:~$ fortune
-"Talk is cheap. Show me the code." — Linus Torvalds
-
-tejjasar@tejjas-os:~$ help
-available commands: help · whoami · neofetch · fortune · hack · sudo · matrix · top
-```
-<!-- TERMINAL_LOG_END -->
+`spellbook` · `fireball` · `heal` · `lightning` · `prophecy` · `inspect` · `steal`
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=TejjasAR&color=3fb950&style=flat-square&label=intrusion+attempts" alt="intrusion attempts" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/battle-log.svg" alt="battle log" />
 </div>
 
-## `$ htop` — running processes
+## 📜 Quest log
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/processes.svg" alt="running processes" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/quests.svg" alt="quest log" />
 </div>
 
-## `$ stack list --all`
+## 🌟 Skill tree
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stack.svg" alt="tech stack" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/skills.svg" alt="skill tree" />
 </div>
 
-## `$ neofetch`
+## 🛡️ Battle stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/specs.svg" alt="system specs" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stats.svg" alt="battle stats" />
 </div>
 
-## `$ tail -f ~/commits`
+## 🗺️ World map
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="contribution snake" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/output/github-snake-dark.svg" alt="contribution world map" />
 </div>
 
 ---
 
 <div align="center">
 
-```text
-$ sudo shutdown -h now
-shutdown cancelled — too much left to build
-```
+*every legend starts at zero* ⚔️
+
+<img src="https://komarev.com/ghpvc/?username=TejjasAR&color=fbbf24&style=flat-square&label=tavern+visitors" alt="tavern visitors" />
 
 </div>

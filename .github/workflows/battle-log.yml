@@ -1,8 +1,8 @@
-name: Remote terminal
+name: Battle log
 
-# Visitors run commands on the profile by opening an issue titled `cmd: <command>`.
-# The script executes from a strict allowlist, updates the README transcript,
-# then this workflow commits it and closes the issue.
+# Visitors cast spells on the profile by opening an issue titled `cmd: <spell>`.
+# The script resolves the spell from a strict allowlist and regenerates
+# assets/battle-log.svg, then this workflow commits it and closes the issue.
 
 on:
   issues:
@@ -13,11 +13,11 @@ permissions:
   issues: write
 
 concurrency:
-  group: remote-terminal
+  group: battle-log
   cancel-in-progress: false
 
 jobs:
-  exec:
+  cast:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,28 +26,28 @@ jobs:
         with:
           python-version: "3.12"
 
-      - id: term
-        run: python scripts/remote_terminal.py
+      - id: spell
+        run: python scripts/battle_log.py
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
 
-      - if: steps.term.outputs.ran == 'true'
+      - if: steps.spell.outputs.ran == 'true'
         run: |
           git config user.name "tejjas-os"
           git config user.email "tejjas-os@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "terminal: @${{ github.event.issue.user.login }} ran a command"
+          git diff --cached --quiet || git commit -m "battle log: @${{ github.event.issue.user.login }} cast a spell"
           git push
 
-      - if: steps.term.outputs.ran == 'true'
+      - if: steps.spell.outputs.ran == 'true'
         uses: actions/github-script@v7
         with:
           script: |
             const n = context.issue.number;
             await github.rest.issues.createComment({
               ...context.repo, issue_number: n,
-              body: 'command executed ✅ — refresh the profile to see the output in the remote terminal.'
+              body: 'spell cast ✅ — refresh the profile to see it in the battle log.'
             });
             await github.rest.issues.update({ ...context.repo, issue_number: n, state: 'closed' });

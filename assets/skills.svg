@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Trebuchet MS, Verdana, sans-serif">
+<rect x="1" y="1" width="798" height="418" rx="18" fill="#141233"/>
+<defs><linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs>
+<text x="40" y="56" font-size="28" font-weight="bold" fill="url(#goldGrad)" letter-spacing="4">SKILL TREE</text>
+<text x="760" y="52" font-size="14" fill="#a5b4fc" text-anchor="end">8 disciplines · tap into the arcane</text>
+<line x1="40" y1="72" x2="760" y2="72" stroke="#fbbf24" stroke-opacity="0.25"/>
+<line x1="400" y1="215" x2="595" y2="215" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="129" stroke-dashoffset="129" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="129" to="0" dur="0.6s" begin="0.20s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="538" y2="306" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="99" stroke-dashoffset="99" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="99" to="0" dur="0.6s" begin="0.34s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="400" y2="343" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="62" stroke-dashoffset="62" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="62" to="0" dur="0.6s" begin="0.48s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="262" y2="306" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="99" stroke-dashoffset="99" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="99" to="0" dur="0.6s" begin="0.62s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="205" y2="215" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="129" stroke-dashoffset="129" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="129" to="0" dur="0.6s" begin="0.76s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="262" y2="124" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="99" stroke-dashoffset="99" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="99" to="0" dur="0.6s" begin="0.90s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="400" y2="87" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="62" stroke-dashoffset="62" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="62" to="0" dur="0.6s" begin="1.04s" fill="freeze"/></line>
+<line x1="400" y1="215" x2="538" y2="124" stroke="#7c6cf0" stroke-width="2.5" stroke-dasharray="99" stroke-dashoffset="99" opacity="0.8">
+<animate attributeName="stroke-dashoffset" from="99" to="0" dur="0.6s" begin="1.18s" fill="freeze"/></line>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="0.35s" fill="freeze"/>
+<circle cx="595" cy="215" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="595" cy="215" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="595" y="222" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Py</text>
+<text x="595" y="245" font-size="12" fill="#d1d5db" text-anchor="middle">Python</text><circle cx="571" cy="259" r="4" fill="#fbbf24"/><circle cx="583" cy="259" r="4" fill="#fbbf24"/><circle cx="595" cy="259" r="4" fill="#fbbf24"/><circle cx="607" cy="259" r="4" fill="#fbbf24"/><circle cx="619" cy="259" r="4" fill="#fbbf24"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="0.49s" fill="freeze"/>
+<circle cx="538" cy="306" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="538" cy="306" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="538" y="313" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Pt</text>
+<text x="538" y="336" font-size="12" fill="#d1d5db" text-anchor="middle">PyTorch</text><circle cx="514" cy="350" r="4" fill="#fbbf24"/><circle cx="526" cy="350" r="4" fill="#fbbf24"/><circle cx="538" cy="350" r="4" fill="#fbbf24"/><circle cx="550" cy="350" r="4" fill="#fbbf24"/><circle cx="562" cy="350" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="0.63s" fill="freeze"/>
+<circle cx="400" cy="343" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="400" cy="343" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="400" y="350" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">C+</text>
+<text x="400" y="373" font-size="12" fill="#d1d5db" text-anchor="middle">C++</text><circle cx="376" cy="387" r="4" fill="#fbbf24"/><circle cx="388" cy="387" r="4" fill="#fbbf24"/><circle cx="400" cy="387" r="4" fill="#fbbf24"/><circle cx="412" cy="387" r="4" fill="#fbbf24"/><circle cx="424" cy="387" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="0.77s" fill="freeze"/>
+<circle cx="262" cy="306" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="262" cy="306" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="262" y="313" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Jv</text>
+<text x="262" y="336" font-size="12" fill="#d1d5db" text-anchor="middle">Java</text><circle cx="238" cy="350" r="4" fill="#fbbf24"/><circle cx="250" cy="350" r="4" fill="#fbbf24"/><circle cx="262" cy="350" r="4" fill="#fbbf24"/><circle cx="274" cy="350" r="4" fill="#33335c"/><circle cx="286" cy="350" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="0.91s" fill="freeze"/>
+<circle cx="205" cy="215" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="205" cy="215" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="205" y="222" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Js</text>
+<text x="205" y="245" font-size="12" fill="#d1d5db" text-anchor="middle">JavaScript</text><circle cx="181" cy="259" r="4" fill="#fbbf24"/><circle cx="193" cy="259" r="4" fill="#fbbf24"/><circle cx="205" cy="259" r="4" fill="#fbbf24"/><circle cx="217" cy="259" r="4" fill="#33335c"/><circle cx="229" cy="259" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="1.05s" fill="freeze"/>
+<circle cx="262" cy="124" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="262" cy="124" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="262" y="131" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Lx</text>
+<text x="262" y="154" font-size="12" fill="#d1d5db" text-anchor="middle">Linux</text><circle cx="238" cy="168" r="4" fill="#fbbf24"/><circle cx="250" cy="168" r="4" fill="#fbbf24"/><circle cx="262" cy="168" r="4" fill="#fbbf24"/><circle cx="274" cy="168" r="4" fill="#fbbf24"/><circle cx="286" cy="168" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="1.19s" fill="freeze"/>
+<circle cx="400" cy="87" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="400" cy="87" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="400" y="94" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Gt</text>
+<text x="400" y="117" font-size="12" fill="#d1d5db" text-anchor="middle">Git</text><circle cx="376" cy="131" r="4" fill="#fbbf24"/><circle cx="388" cy="131" r="4" fill="#fbbf24"/><circle cx="400" cy="131" r="4" fill="#fbbf24"/><circle cx="412" cy="131" r="4" fill="#fbbf24"/><circle cx="424" cy="131" r="4" fill="#33335c"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="0.3s" begin="1.33s" fill="freeze"/>
+<circle cx="538" cy="124" r="34" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="538" cy="124" r="40" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
+<text x="538" y="131" font-size="17" font-weight="bold" fill="#f5f3ff" text-anchor="middle">Dk</text>
+<text x="538" y="154" font-size="12" fill="#d1d5db" text-anchor="middle">Docker</text><circle cx="514" cy="168" r="4" fill="#fbbf24"/><circle cx="526" cy="168" r="4" fill="#fbbf24"/><circle cx="538" cy="168" r="4" fill="#fbbf24"/><circle cx="550" cy="168" r="4" fill="#33335c"/><circle cx="562" cy="168" r="4" fill="#33335c"/></g>
+<g><circle cx="400" cy="215" r="42" fill="url(#goldGrad)"/>
+<circle cx="400" cy="215" r="42" fill="none" stroke="#fff7ed" stroke-width="2" opacity="0.6">
+<animate attributeName="opacity" values="0.6;0.15;0.6" keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="400" y="231" font-size="40" font-weight="bold" fill="#1e1b4b" text-anchor="middle">T</text></g>
+<rect x="1" y="1" width="798" height="418" rx="18" fill="none" stroke="#7c6cf0" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
