@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="JetBrains Mono, Menlo, Consolas, monospace">
+<rect x="1" y="1" width="798" height="398" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<circle cx="30" cy="30" r="7" fill="#ff5f56"/>
+<circle cx="54" cy="30" r="7" fill="#ffbd2e"/>
+<circle cx="78" cy="30" r="7" fill="#27c93f"/>
+<text x="96" y="36" font-size="14" fill="#8b949e">tejjasar@dev: ~/boot</text>
+<text x="776" y="36" font-size="12" fill="#6e7681" text-anchor="end">zsh</text>
+<line x1="1" y1="54" x2="799" y2="54" stroke="#30363d"/>
+<g opacity="0"><text x="28" y="100" font-size="17"><tspan fill="#7ee787" font-weight="bold">$ </tspan><tspan fill="#c9d1d9" font-weight="normal">./tejjasar --init</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="0.4s" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="28" y="138" font-size="17"><tspan fill="#7ee787" font-weight="normal">[  OK  ] </tspan><tspan fill="#8b949e" font-weight="normal">mounted /dev/identity</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="1.5s" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="28" y="176" font-size="17"><tspan fill="#7ee787" font-weight="normal">[  OK  ] </tspan><tspan fill="#8b949e" font-weight="normal">curiosity driver loaded</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="2.6s" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="28" y="214" font-size="17"><tspan fill="#7ee787" font-weight="normal">[  OK  ] </tspan><tspan fill="#8b949e" font-weight="normal">coffee levels nominal</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="3.7s" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="28" y="252" font-size="17"><tspan fill="#7aa2f7" font-weight="bold">&gt; </tspan><tspan fill="#c9d1d9" font-weight="normal">systems builder  ·  C++ / Python / ML</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="5.0s" repeatCount="indefinite"/></g>
+<g opacity="0"><text x="28" y="290" font-size="17"><tspan fill="#7aa2f7" font-weight="bold">&gt; </tspan><tspan fill="#c9d1d9" font-weight="normal">current process: building &amp; breaking things</tspan></text><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.86;1" dur="15s" begin="6.3s" repeatCount="indefinite"/></g>
+<text x="28" y="328" font-size="17"><tspan fill="#7ee787" font-weight="bold">$</tspan></text><rect x="48" y="312" width="11" height="20" fill="#7ee787"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</svg>

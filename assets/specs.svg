@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="JetBrains Mono, Menlo, Consolas, monospace">
+<rect x="1" y="1" width="798" height="318" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<circle cx="30" cy="30" r="7" fill="#ff5f56"/>
+<circle cx="54" cy="30" r="7" fill="#ffbd2e"/>
+<circle cx="78" cy="30" r="7" fill="#27c93f"/>
+<text x="96" y="36" font-size="14" fill="#8b949e">tejjasar@dev: neofetch</text>
+<text x="776" y="36" font-size="12" fill="#6e7681" text-anchor="end">zsh</text>
+<line x1="1" y1="54" x2="799" y2="54" stroke="#30363d"/>
+<text x="60" y="170" font-size="72" font-weight="bold" fill="#7aa2f7">&gt;</text>
+<rect x="64" y="182" width="46" height="9" fill="#7aa2f7"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<text x="60" y="220" font-size="13" fill="#8b949e">TEJJAS-OS v2.0</text>
+<line x1="280" y1="80" x2="280" y2="290" stroke="#21262d"/>
+<text x="320" y="110" font-size="16" fill="#c9d1d9" font-weight="bold">tejjasar@github</text>
+<line x1="320" y1="142" x2="600" y2="142" stroke="#21262d"/>
+<text x="320" y="162" font-size="14"><tspan fill="#7aa2f7">Host:</tspan><tspan fill="#c9d1d9"> github.com/TejjasAR</tspan></text>
+<text x="320" y="186" font-size="14"><tspan fill="#7aa2f7">Builds:</tspan><tspan fill="#c9d1d9"> 8 public repos</tspan></text>
+<text x="320" y="210" font-size="14"><tspan fill="#7aa2f7">Stars:</tspan><tspan fill="#c9d1d9"> 0 — for now</tspan></text>
+<text x="320" y="234" font-size="14"><tspan fill="#7aa2f7">Top langs:</tspan><tspan fill="#c9d1d9"> Python · C++ · Java · JS</tspan></text>
+<text x="320" y="258" font-size="14"><tspan fill="#7aa2f7">Shell:</tspan><tspan fill="#c9d1d9"> zsh</tspan></text>
+<text x="320" y="282" font-size="14"><tspan fill="#7aa2f7">Uptime:</tspan><tspan fill="#c9d1d9"> since Oct 2023</tspan></text>
+<text x="320" y="306" font-size="14"><tspan fill="#7aa2f7">Status:</tspan><tspan fill="#c9d1d9"> building &amp; breaking things</tspan></text>
+</svg>
