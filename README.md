@@ -2,6 +2,26 @@
   <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/hero.svg" alt="./tejjasar --init" />
 </div>
 
+## `$ ssh guest@tejjas-os` · remote terminal — yes, it's alive
+
+This machine accepts commands from visitors. **Open an issue titled `cmd: <command>`** and the transcript below updates itself.
+
+Try `help`, `whoami`, `fortune`, `hack`, `sudo`, `matrix`, `top`, `neofetch`.
+
+<!-- TERMINAL_LOG_START -->
+```text
+tejjasar@tejjas-os:~$ help
+available commands: help · whoami · neofetch · fortune · hack · sudo · matrix · top
+
+tejjasar@tejjas-os:~$ fortune
+"Talk is cheap. Show me the code." — Linus Torvalds
+```
+<!-- TERMINAL_LOG_END -->
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=TejjasAR&color=3fb950&style=flat-square&label=intrusion+attempts" alt="intrusion attempts" />
+</div>
+
 ## `$ htop` — running processes
 
 <div align="center">
