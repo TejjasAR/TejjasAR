@@ -13,16 +13,16 @@ import sys
 
 PALETTE = {
     "--cb": "#030308",  # cell stroke -> black, seamless
-    "--cs": "#fbbf24",  # the serpent -> gold comet
+    "--cs": "#4ade80",  # the serpent -> classic snake green
     "--ce": "#0b0b16",  # empty cells -> near-black
     "--c0": "#0b0b16",
-    "--c1": "#164e63",  # deep teal
-    "--c2": "#0e7490",  # teal
-    "--c3": "#22d3ee",  # cyan
-    "--c4": "#fbbf24",  # gold (brightest days)
+    "--c1": "#14532d",  # dark green
+    "--c2": "#16a34a",  # green
+    "--c3": "#4ade80",  # bright green
+    "--c4": "#bbf7d0",  # pale green (brightest days)
 }
 
-GLOW_RULE = ".s{filter:drop-shadow(0 0 3px #fbbf24)}"
+GLOW_RULE = ".s{filter:drop-shadow(0 0 3px #4ade80)}"
 
 
 def recolor(path):
