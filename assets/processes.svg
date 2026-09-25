@@ -79,6 +79,8 @@
   </rect>
   <text x="664" y="388" fill="#c9d1d9">39%</text>
   <text x="724" y="388" fill="#8b949e" font-weight="bold">S</text></g>
+<defs><linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.5" stop-color="#7ee787" stop-opacity="0.10"/><stop offset="1" stop-color="#7ee787" stop-opacity="0"/></linearGradient></defs>
+<rect x="2" y="130" width="796" height="36" fill="url(#scan)"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 262" dur="5.5s" repeatCount="indefinite"/></rect>
 <line x1="1" y1="412" x2="799" y2="412" stroke="#30363d"/>
 <text x="24" y="436" font-size="11" fill="#6e7681">* focus% is decorative. the grind is real.</text>
 </svg>
