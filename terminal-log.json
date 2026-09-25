@@ -1,1 +1,20 @@
-[{"cmd":"help","out":"available commands: help · whoami · neofetch · fortune · hack · sudo · matrix · top","ts":"2026-09-25T05:55:00+00:00","user":"tejjasar"},{"cmd":"fortune","out":"\"Talk is cheap. Show me the code.\" — Linus Torvalds","ts":"2026-09-25T05:55:00+00:00","user":"tejjasar"}]
+[
+  {
+    "cmd": "help",
+    "out": "available commands: help \u00b7 whoami \u00b7 neofetch \u00b7 fortune \u00b7 hack \u00b7 sudo \u00b7 matrix \u00b7 top",
+    "ts": "2026-09-25T05:55:00+00:00",
+    "user": "tejjasar"
+  },
+  {
+    "cmd": "fortune",
+    "out": "\"Talk is cheap. Show me the code.\" \u2014 Linus Torvalds",
+    "ts": "2026-09-25T05:55:00+00:00",
+    "user": "tejjasar"
+  },
+  {
+    "user": "TejjasAR",
+    "cmd": "fortune",
+    "out": "\"The best error message is the one that never shows up.\" \u2014 Thomas Fuchs",
+    "ts": "2026-09-25T05:58:16+00:00"
+  }
+]

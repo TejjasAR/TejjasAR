@@ -15,6 +15,9 @@ available commands: help · whoami · neofetch · fortune · hack · sudo · mat
 
 tejjasar@tejjas-os:~$ fortune
 "Talk is cheap. Show me the code." — Linus Torvalds
+
+TejjasAR@tejjas-os:~$ fortune
+"The best error message is the one that never shows up." — Thomas Fuchs
 ```
 <!-- TERMINAL_LOG_END -->
 
