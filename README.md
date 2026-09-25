@@ -25,7 +25,7 @@ class TejjasAR:
 ## `~/stack`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,cpp,java,js,pytorch,tensorflow,sklearn,docker,linux,git,vscode,bash&theme=dark" alt="tech stack" />
+  <img src="https://raw.githubusercontent.com/TejjasAR/TejjasAR/main/assets/stack.svg" alt="$ stack list --all" />
 </div>
 
 ## `~/stats`
